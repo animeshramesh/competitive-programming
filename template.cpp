@@ -17,8 +17,8 @@ using namespace std;
 #define xx first
 #define yy second
 #define eps 1e-9
-typedef long long i64;
-typedef unsigned long long ui64;
+typedef long long ll;
+typedef unsigned long long ull;
 typedef string st;
 typedef vector<int> vi;
 typedef vector<st> vs;
