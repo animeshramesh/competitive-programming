@@ -20,3 +20,5 @@ void DFS(int v)
 			DFS(neighbour);
 	}
 }
+
+DFS(0);
