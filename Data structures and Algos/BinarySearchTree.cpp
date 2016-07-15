@@ -10,6 +10,7 @@
 Operations :
 - Insert a new node in BST
 - Search for an integer in BST
+- Count nodes
 */
 
 
@@ -70,4 +71,17 @@ struct node * search( struct node * leaf, int val)
 	}
 
 	else return NULL;
+}
+
+int countNodes(struct node * root)
+{
+	if (root == NULL) return 0;
+
+	int c = 0;
+
+	c += countNodes(root->left);
+	c += countNodes(root-> right);
+
+	return c;
+
 }
