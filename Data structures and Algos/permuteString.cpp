@@ -7,7 +7,7 @@ void permute(string str, int i)
     else
     {   for (int j = i; j<=n; j++)
         {   swap(str[i], str[j]);
-            permute(str, j);
+            permute(str, i+1);
             swap(str[i], str[j]);
         }
     }
