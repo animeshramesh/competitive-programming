@@ -29,7 +29,12 @@
 
 
 ### Deadlock, Livelock
+- Consider the situation in which two threads block each other because each is waiting for a lock that the other holds. This is called a deadlock.
+- Each thread is permanently stalled because neither can continue running to the point of releasing the lock that the other needs.
+- Deadlock occurs when multiple threads need the same locks but obtain them in different order.
+- In theory the best solution is to write code that cannot deadlock — for instance, whenever it’s necessary to acquire more than one lock, the locks should always be acquired in the same order and released in reverse order. In practice, it becomes difficult to enforce this across a large application with many locks, each of which may be acquired by code in many different places.
 
+![alt tag](http://2.bp.blogspot.com/-63RZ-BTlAFs/VfGeHMnGdFI/AAAAAAAADuw/gwqtrVliMsM/s1600/Deadlock%2Bof%2BThreads.jpg)
 
 
 ### Context Switching
