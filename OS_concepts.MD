@@ -42,3 +42,10 @@
 
 
 ### Resource Allocation
+
+
+
+### Virtual Memory
+- A computer can address more memory than the amount physically installed on the system. This extra memory is actually called virtual memory and it is a section of a hard disk that's set up to emulate the computer's RAM.
+- [Virtual Mem 1](https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm)
+- [Virtual Mem 2](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Memory/virtual.html)
